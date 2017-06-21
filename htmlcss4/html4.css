@@ -1,0 +1,33 @@
+body {
+  background: #fff;
+}
+
+#container {
+  background: #ccc;
+  width: 400px;
+  height: 200px;
+  position: absolute;
+  overflow: hidden;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+
+#container div {
+  background: #fc0;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+}
+
+#left-top {
+  position: absolute;
+  left: -50px;
+  top: -50px;
+}
+
+#right-bottom {
+  position: absolute;
+  right: -50px;
+  bottom: -50px;
+}
